@@ -26,9 +26,9 @@ const ConfigurationOptions = () => {
           dispatch(navbarStatus(!activeNavbar));
         }}>
         {activeNavbar ? (
-          <MenuOutlined sx={{ m: 1, fontSize: "2rem" }} />
-        ) : (
           <CloseOutlined sx={{ m: 1, fontSize: "2rem" }} />
+        ) : (
+          <MenuOutlined sx={{ m: 1, fontSize: "2rem" }} />
         )}
       </button>
 
