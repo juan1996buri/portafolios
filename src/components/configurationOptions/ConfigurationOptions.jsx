@@ -1,4 +1,8 @@
-import { MenuOutlined, SettingsSuggestOutlined } from "@mui/icons-material";
+import {
+  CloseOutlined,
+  MenuOutlined,
+  SettingsSuggestOutlined,
+} from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
 
 import React, { useState } from "react";
@@ -17,11 +21,15 @@ const ConfigurationOptions = () => {
     <div>
       <button
         type="button"
-        className={`${currentColor.text} `}
+        className={`${currentColor.text}  `}
         onClick={() => {
           dispatch(navbarStatus(!activeNavbar));
         }}>
-        <MenuOutlined sx={{ m: 1, fontSize: "2rem" }} />
+        {activeNavbar ? (
+          <MenuOutlined sx={{ m: 1, fontSize: "2rem" }} />
+        ) : (
+          <CloseOutlined sx={{ m: 1, fontSize: "2rem" }} />
+        )}
       </button>
 
       <ThemeButton />
