@@ -28,7 +28,7 @@ const Navbar = () => {
     }
   }, [dispatch, widthSizeOn]);
   return (
-    <div className="h-screen w-full flex flex-col">
+    <div className="h-screen w-full flex flex-col ">
       <div className="flex flex-col items-center pt-4">
         <div className=" mb-2 p-2 rounded-full  ">
           <img
