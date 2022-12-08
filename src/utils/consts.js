@@ -72,24 +72,18 @@ export const data = [
 
 export const networks = [
   {
-    name: "Facebook",
-    icon: <FacebookOutlined />,
-  },
-  {
-    name: "Instagram",
-    icon: <Instagram />,
-  },
-  {
     name: "Github",
     icon: <GitHub />,
+    url: "https://github.com/juan1996buri",
   },
   {
-    name: "Linkedind",
+    name: "LinkedIn",
     icon: <LinkedIn />,
   },
   {
     name: "WhatsApp",
     icon: <WhatsApp />,
+    url: "https://api.whatsapp.com/send?phone=593987184008&text=Hola, necesito informacion?",
   },
 ];
 
@@ -282,12 +276,12 @@ export const information = [
   {
     icon: <MessageOutlined />,
     name: "Email",
-    detail: "juan@gmail.com",
+    detail: "juan1996buri@gmail.com",
   },
   {
     icon: <PhoneIphoneOutlined />,
     name: "Celular",
-    detail: "+593 098607421",
+    detail: "+593 987184008",
   },
 ];
 

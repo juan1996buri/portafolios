@@ -9,7 +9,9 @@ const SocialNetworks = () => {
     <span className={`flex gap-2 ${currentColor.text} `}>
       {networks.map((item, index) => (
         <Tooltip key={index} title={item.name}>
-          <div>{item.icon}</div>
+          <a href={item.url} target={"_blank"} rel="noreferrer">
+            {item.icon}
+          </a>
         </Tooltip>
       ))}
     </span>
