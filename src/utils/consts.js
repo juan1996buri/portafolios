@@ -191,23 +191,23 @@ export const proyects = [
     information: [
       {
         image: proyect2_1,
-        description: "aaaaaaa",
+        description: "Getión de procesos de elecciones",
       },
       {
         image: proyect2_2,
-        description: "ssssss",
+        description: "Gestión de candidatos",
       },
       {
         image: proyect2_3,
-        description: "qqqqqqqq",
+        description: "Elección de listas",
       },
       {
         image: proyect2_4,
-        description: "aaaaaaa",
+        description: "Gestión de los candidatos",
       },
       {
         image: proyect2_5,
-        description: "ssssss",
+        description: "Login de los administradores",
       },
     ],
   },

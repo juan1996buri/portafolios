@@ -21,7 +21,7 @@ function App() {
           className={` ${
             activeNavbar
               ? "fixed z-50 bg-zinc-50 shadow-xl dark:bg-zinc-900 w-72    "
-              : "w-0   "
+              : "w-0  duration-75  "
           }`}>
           <Navbar />
         </div>
