@@ -15,30 +15,32 @@ function App() {
   const themeColor = useSelector((state) => state.theme.themeColor);
 
   return (
-    <div className={`flex ${themeColor === "dark" ? "dark" : ""}`}>
-      <div
-        className={` ${
-          activeNavbar
-            ? "fixed z-50 bg-zinc-50 shadow-xl dark:bg-zinc-900 w-72 "
-            : "w-0  "
-        }`}>
-        <Navbar />
-      </div>
-      <div
-        className={`w-full bg-slate-50 dark:bg-zinc-800 ${
-          activeNavbar ? "md:ml-72" : ""
-        } `}>
-        <Home />
-        <About />
-        <Proyects />
-        <Skills />
-        <Contac />
-      </div>
-      <div className="fixed bottom-4 right-4 z-50">
-        <FloatingButton />
-      </div>
-      <div className="fixed top-1 right-0 z-50">
-        <ConfigurationOptions />
+    <div>
+      <div className={`flex ${themeColor === "dark" ? "dark" : ""}`}>
+        <div
+          className={` ${
+            activeNavbar
+              ? "fixed z-50 bg-zinc-50 shadow-xl dark:bg-zinc-900 w-72    "
+              : "w-0   "
+          }`}>
+          <Navbar />
+        </div>
+        <div
+          className={`w-full bg-slate-50 dark:bg-zinc-800 ${
+            activeNavbar ? "md:ml-72" : ""
+          } `}>
+          <Home />
+          <About />
+          <Proyects />
+          <Skills />
+          <Contac />
+        </div>
+        <div className="fixed bottom-4 right-4 z-50">
+          <FloatingButton />
+        </div>
+        <div className="fixed top-1 right-0 z-50">
+          <ConfigurationOptions />
+        </div>
       </div>
     </div>
   );

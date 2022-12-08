@@ -17,7 +17,7 @@ const ConfigurationOptions = () => {
     <div>
       <button
         type="button"
-        className={`${currentColor.text}`}
+        className={`${currentColor.text} `}
         onClick={() => {
           dispatch(navbarStatus(!activeNavbar));
         }}>
