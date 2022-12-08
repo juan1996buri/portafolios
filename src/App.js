@@ -20,7 +20,7 @@ function App() {
         <div
           className={` ${
             activeNavbar
-              ? "fixed z-50 bg-zinc-50 shadow-xl dark:bg-zinc-900 w-72 md:transition-all   md:duration-1000 "
+              ? "fixed z-50 bg-zinc-50 shadow-xl dark:bg-zinc-900 w-72 transition-all duration-1000 "
               : "w-0 md:duration-1000  -z-50 "
           }`}>
           <Navbar />
