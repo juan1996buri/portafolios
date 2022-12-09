@@ -47,6 +47,10 @@ import proyect2_3 from "../images/proyect2_3.png";
 import proyect2_4 from "../images/proyect2_4.png";
 import proyect2_5 from "../images/proyect2_5.png";
 
+import portafolio1 from "../images/portafolio1.png";
+import portafolio2 from "../images/portafolio2.png";
+import portafolio3 from "../images/portafolio3.png";
+
 export const data = [
   {
     icon: <HomeOutlined />,
@@ -262,6 +266,29 @@ export const proyects = [
       {
         image: proyect4_3,
         description: "100% responsivo",
+      },
+    ],
+  },
+  {
+    name: "Portafolios personal",
+    description:
+      "Este proyecto consiste en exibir mis habilidades a lo largo de mi carrera de manera profesional",
+    image: proyect1_1,
+    git: "https://github.com/juan1996buri/portafolios.git",
+    url: "",
+    tools: ["React.js", "Tailwind", "JavaScrip", "JSX"],
+    information: [
+      {
+        image: portafolio1,
+        description: "",
+      },
+      {
+        image: portafolio2,
+        description: "Barra lateral modo responsivo",
+      },
+      {
+        image: portafolio3,
+        description: "Area de envio de mensajes validado",
       },
     ],
   },

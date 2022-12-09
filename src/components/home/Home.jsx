@@ -1,8 +1,8 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import Curriculum from "./Curriculum";
 import "./home.css";
 import work from "../../images/work.jpg";
+
 
 const Home = () => {
   return (
