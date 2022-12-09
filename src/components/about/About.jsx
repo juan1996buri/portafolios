@@ -15,12 +15,12 @@ const About = () => {
           <p className="font-sansSerif font-semibold dark:font-normal dark:text-white">
             Desarrollador full stack con intereses en Diseño UI, REST API,
             Desarrollo Móvil y dispuesto a aprender nuevas tecnologías web del
-            mercado. Llevo más de 2 años de trayectoria trabajando en desarrollo
-            de aplicaciones web personales utilizando tecnologías más emergentes
-            de la actualidad. Experiencia en proyectos JavaScript, REST API,
-            maquetación HTML & CSS, Especialista en la solución óptima de
-            problemas de software y trabajo en equipo, manteniendo siempre
-            buenas prácticas de programación.
+            mercado. Experiencia en proyectos JavaScript, REST API, maquetación
+            HTML & CSS, Especialista en la solución óptima de problemas de
+            software y trabajo en equipo, manteniendo siempre buenas prácticas
+            de programación. Busco mi primera oportunidad para formar parte de
+            un equipo de desarrollo y aprender nuevo conocimientos para crecer
+            profesionalmente
           </p>
         </span>
       </div>

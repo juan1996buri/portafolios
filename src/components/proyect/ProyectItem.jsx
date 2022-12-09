@@ -36,7 +36,11 @@ const ProyectItem = ({ proyect }) => {
         ))}
       </div>
       <div className={`w-full flex justify-end gap-2 p-2 ${currentColor.text}`}>
-        <a href={proyect.url} target={"_blank"} rel="noreferrer">
+        <a
+          className={proyect.url ? "" : "hidden"}
+          href={proyect.url}
+          target={"_blank"}
+          rel="noreferrer">
           <Visibility />
         </a>
         <a href={proyect.git} target={"_blank"} rel="noreferrer">
