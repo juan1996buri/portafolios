@@ -247,8 +247,8 @@ export const proyects = [
     description:
       "Este proyecto consiste en explorar y implementar animaciones, para generar un grado de usabilidad al usuario",
     image: proyect4_1,
-    git: "",
-    url: "",
+    git: "https://github.com/juan1996buri/cafeteria_design",
+    url: "https://golden-parfait-146ab0.netlify.app",
     tools: ["React.js", "Tailwind", "JavaScrip", "JSX", "FramerMotion"],
     information: [
       {
