@@ -144,7 +144,7 @@ export const proyects = [
     description: "Sitio de peliculas usando TMDB como base de datos ",
     image: proyect1_1,
     git: "https://github.com/juan1996buri/movies",
-    url: "",
+    url: "https://moviesplus1.netlify.app",
     tools: ["React.js", "Tailwind", "JavaScrip", "JSX", "Redux Toolkit"],
     information: [
       {
@@ -175,7 +175,7 @@ export const proyects = [
     description:
       "Sitio Web creado para la obtención del tituto de desarrollo de software",
     image: proyect2_1,
-    git: "",
+    git: "https://github.com/juan1996buri/tesis-frontend-voto-electronico.git",
     url: "",
     tools: [
       "React.js",
@@ -216,7 +216,7 @@ export const proyects = [
     description:
       "Este proyecto consiste en consumir una api externa (pokeapi), esto sirvió para explorar el uso de redux toolkit query",
     image: proyect3_1,
-    git: "",
+    git: "https://github.com/juan1996buri/pokedex.git",
     url: "https://juan1996buri-pokedex.netlify.app",
     tools: [
       "React.js",
@@ -230,7 +230,7 @@ export const proyects = [
       {
         image: proyect3_1,
         description:
-          "Genera colores aleatorios cada vez que se ingresa al citio",
+          "Genera colores aleatorios cada vez que se ingresa al Sitio Web",
       },
       {
         image: proyect3_2,

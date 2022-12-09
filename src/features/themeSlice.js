@@ -5,7 +5,7 @@ export const themeSlice = createSlice({
   initialState: {
     themeColor: window.localStorage.getItem("theme")
       ? window.localStorage.getItem("theme")
-      : window.localStorage.setItem("theme", "light"),
+      : window.localStorage.setItem("theme", "dark"),
   },
   reducers: {
     themeStatus: (stata, action) => {
