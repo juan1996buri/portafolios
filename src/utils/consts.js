@@ -274,7 +274,14 @@ export const proyects = [
     image: proyect1_1,
     git: "https://github.com/juan1996buri/portafolios.git",
     url: "",
-    tools: ["React.js", "Tailwind", "JavaScrip", "JSX", "Redux Toolkit"],
+    tools: [
+      "React.js",
+      "Tailwind",
+      "JavaScrip",
+      "JSX",
+      "Redux Toolkit",
+      "Framer Motion",
+    ],
     information: [
       {
         image: portafolio1,
