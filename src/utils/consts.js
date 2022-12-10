@@ -1,9 +1,7 @@
 import {
   AddLocationAltOutlined,
-  FacebookOutlined,
   GitHub,
   HomeOutlined,
-  Instagram,
   LinkedIn,
   MailOutline,
   MenuBookOutlined,

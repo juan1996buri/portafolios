@@ -8,7 +8,7 @@ const ProyectItem = ({ proyect }) => {
   const currentColor = useSelector((state) => state.color.currentColor);
 
   return (
-    <div className="w-full shadow-md  ">
+    <div className="w-full shadow-md">
       <div className="w-full overflow-hidden cursor-pointer flex">
         <img
           src={proyect.image}

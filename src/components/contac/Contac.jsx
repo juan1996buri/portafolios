@@ -3,7 +3,6 @@ import emailjs from "@emailjs/browser";
 import { information } from "../../utils/consts";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import { useSelector } from "react-redux";
-import { Alert, AlertTitle } from "@mui/material";
 const Contac = () => {
   const currentColor = useSelector((state) => state.color.currentColor);
 

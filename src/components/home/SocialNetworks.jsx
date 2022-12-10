@@ -6,7 +6,7 @@ const SocialNetworks = () => {
   const currentColor = useSelector((state) => state.color.currentColor);
 
   return (
-    <span className={`flex gap-2 ${currentColor.text} `}>
+    <span className={`flex gap-4 ${currentColor.text} `}>
       {networks.map((item, index) => (
         <Tooltip key={index} title={item.name}>
           <a href={item.url} target={"_blank"} rel="noreferrer">
