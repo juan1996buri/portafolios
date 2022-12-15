@@ -147,7 +147,7 @@ const Contac = () => {
             <button
               type="submit"
               value={"message"}
-              className={` py-2  mt-2 mb-6 text-white ${currentColor.bg}`}>
+              className={` py-2  mt-2 mb-6 text-white ${currentColor?.bg}`}>
               Enviar
             </button>
           </form>

@@ -33,23 +33,23 @@ const ProyectItem = ({ proyect }) => {
       <motion.div className="w-full shadow-md" animate={animation}>
         <div className="w-full overflow-hidden cursor-pointer flex">
           <img
-            src={proyect.image}
+            src={proyect?.image}
             alt=""
             className="w-full h-52  object-cover bg-slate-400 hover:scale-105 transition-all duration-1000"
             onClick={() => setOpen(true)}
           />
         </div>
         <h3 className="font-sansSerif font-bold text-2xl tracking-wider text-teal-700 dark:text-cyan-100">
-          {proyect.name}
+          {proyect?.name}
         </h3>
         <p className="font-sansSerif font-semibold dark:font-normal dark:text-white">
-          {proyect.description}
+          {proyect?.description}
         </p>
         <h3 className="tracking-wider text-teal-700 dark:text-cyan-100">
           Tecnologías
         </h3>
         <div className="flex flex-wrap gap-3">
-          {proyect.tools.map((item, index) => (
+          {proyect?.tools.map((item, index) => (
             <div
               className="font-sansSerif font-semibold dark:font-normal dark:text-white "
               key={index}>
@@ -58,7 +58,7 @@ const ProyectItem = ({ proyect }) => {
           ))}
         </div>
         <div
-          className={`w-full flex justify-end gap-2 p-2 ${currentColor.text}`}>
+          className={`w-full flex justify-end gap-2 p-2 ${currentColor?.text}`}>
           <a
             className={proyect.url ? "" : "hidden"}
             href={proyect.url}

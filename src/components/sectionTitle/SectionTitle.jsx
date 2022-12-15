@@ -6,7 +6,7 @@ const SectionTitle = ({ title }) => {
 
   return (
     <h1
-      className={`mb-10 pl-5 pt-2  border-t-2 dark:border-cyan-300 font-sansSerif font-extrabold tracking-widest ${currentColor.text} `}>
+      className={`mb-10 pl-5 pt-2  border-t-2 dark:border-cyan-300 font-sansSerif font-extrabold tracking-widest ${currentColor?.text} `}>
       {title}
     </h1>
   );

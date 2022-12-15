@@ -67,11 +67,11 @@ const Navbar = () => {
           initial="hidden"
           animate="show"
           className=" flex flex-col gap-4 dark:text-cyan-100 font-sans">
-          {data.map((item, index) => (
+          {data?.map((item, index) => (
             <motion.div key={index} variants={itemAnimation}>
               <Link
                 activeClass={`active && ${currentColor.text} line-through `}
-                to={item.name}
+                to={item?.name}
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -83,8 +83,8 @@ const Navbar = () => {
                     dispatch(navbarStatus(false));
                   }
                 }}>
-                <span>{item.icon}</span>
-                <span>{item.name}</span>
+                <span>{item?.icon}</span>
+                <span>{item?.name}</span>
               </Link>
             </motion.div>
           ))}
