@@ -11,7 +11,6 @@ const Skills = () => {
   const [itemAmination, setItemAmination] = useState({});
   useEffect(() => {
     if (visible) {
-      console.log(visible);
       setContainer({
         hidden: { opacity: 0 },
         show: {

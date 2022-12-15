@@ -15,7 +15,9 @@ const ColorButton = ({ color, setActiveColorList }) => {
       }}
       className={`w-7 h-7 rounded-full ${color.bg}`}>
       <div
-        className={`${currentColor.bg === color.bg ? "text-white" : "hidden"}`}>
+        className={`${
+          currentColor?.bg === color.bg ? "text-white" : "hidden"
+        }`}>
         <CheckOutlined />
       </div>
     </button>
