@@ -5,7 +5,6 @@ import { colorStatus } from "../../features/colorSlice";
 
 const ColorButton = ({ color, setActiveColorList }) => {
   const currentColor = useSelector((state) => state.color.currentColor);
-  console.log(currentColor);
   const dispatch = useDispatch();
   return (
     <button

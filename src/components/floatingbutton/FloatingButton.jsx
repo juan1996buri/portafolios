@@ -25,7 +25,7 @@ const FloatingButton = () => {
       to="INICIO"
       className={` rounded-full  items-center justify-center w-10 h-10 cursor-pointer text-white ${
         activeScroll ? "flex" : "hidden"
-      } ${currentColor.bg}`}>
+      } ${currentColor?.bg}`}>
       <Tooltip title="Subir">
         <KeyboardArrowUpIcon />
       </Tooltip>

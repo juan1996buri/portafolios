@@ -21,7 +21,7 @@ const ConfigurationOptions = () => {
     <div>
       <button
         type="button"
-        className={`${currentColor.text}  `}
+        className={`${currentColor?.text}  `}
         onClick={() => {
           dispatch(navbarStatus(!activeNavbar));
         }}>
@@ -36,7 +36,7 @@ const ConfigurationOptions = () => {
       <Tooltip
         type="button"
         title="Opciones"
-        className={`cursor-pointer  ${currentColor.text}  `}
+        className={`cursor-pointer  ${currentColor?.text}  `}
         onClick={() => setActiveColorList((active) => !active)}>
         <SettingsSuggestOutlined sx={{ m: 1, fontSize: "2rem" }} />
       </Tooltip>

@@ -70,7 +70,7 @@ const Navbar = () => {
           {data?.map((item, index) => (
             <motion.div key={index} variants={itemAnimation}>
               <Link
-                activeClass={`active && ${currentColor.text} line-through `}
+                activeClass={`active && ${currentColor?.text} line-through `}
                 to={item?.name}
                 spy={true}
                 smooth={true}

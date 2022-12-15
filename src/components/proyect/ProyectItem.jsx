@@ -13,7 +13,6 @@ const ProyectItem = ({ proyect }) => {
   const animation = useAnimation();
 
   useEffect(() => {
-    console.log(visible);
     if (visible) {
       animation.start({
         opacity: 1,

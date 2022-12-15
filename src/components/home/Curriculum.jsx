@@ -9,7 +9,7 @@ const Curriculum = () => {
       target="_blank"
       rel="noopener noreferrer"
       download={"JuanBuri"}
-      className={`${currentColor.bg} py-2 px-4 rounded cursor-pointer`}>
+      className={`${currentColor?.bg} py-2 px-4 rounded cursor-pointer`}>
       Curriculum
     </a>
   );
