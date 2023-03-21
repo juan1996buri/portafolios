@@ -15,6 +15,7 @@ import {
 import css3 from "../images/css3.png";
 import git from "../images/git.png";
 import html5 from "../images/html5.png";
+import reactNative from "../images/reactNative.png";
 import javascript from "../images/javascript.png";
 import mysql from "../images/mysql.png";
 import nest from "../images/nest.png";
@@ -24,6 +25,9 @@ import redux from "../images/redux.png";
 import tailwind from "../images/tailwind.png";
 import typeorm from "../images/typeorm.png";
 import spring from "../images/spring.png";
+import expo from "../images/expo.png";
+import postgresql from "../images/postgresql.png";
+import mongodb from "../images/mongodb.png";
 
 import proyect4_1 from "../images/proyect4_1.png";
 import proyect4_2 from "../images/proyect4_2.png";
@@ -48,6 +52,9 @@ import proyect2_5 from "../images/proyect2_5.png";
 import portafolio1 from "../images/portafolio1.png";
 import portafolio2 from "../images/portafolio2.png";
 import portafolio3 from "../images/portafolio3.png";
+import uiEcommerceRN1 from "../images/uiEcommerceRN1.jpg";
+import uiEcommerceRN2 from "../images/uiEcommerceRN2.jpg";
+import uiEcommerceRN3 from "../images/uiEcommerceRN3.jpg";
 
 export const data = [
   {
@@ -111,6 +118,14 @@ export const technologies = [
     name: "ReactJS",
   },
   {
+    icon: reactNative,
+    name: "React Native",
+  },
+  {
+    icon: expo,
+    name: "Expo",
+  },
+  {
     icon: redux,
     name: "Redux",
   },
@@ -130,6 +145,15 @@ export const technologies = [
     icon: mysql,
     name: "MySQL",
   },
+  {
+    icon: postgresql,
+    name: "Posgresql",
+  },
+  {
+    icon: mongodb,
+    name: "MongoDB",
+  },
+
   {
     icon: git,
     name: "Git",
@@ -210,6 +234,30 @@ export const proyects = [
       {
         image: proyect2_5,
         description: "Login de los administradores",
+      },
+    ],
+  },
+  {
+    name: "UI clone de ecommercio electronico Zomato ",
+    description:
+      "Aplicacion app creado para el manejo de react-native con expo",
+    image: uiEcommerceRN1,
+    git: "https://github.com/juan1996buri/ecommerce-react-native-v1",
+    url: "",
+    tools: ["React Native", "Expo", "Redux Toolkit", "JSX"],
+    information: [
+      {
+        image: uiEcommerceRN1,
+        description:
+          "Obtención de restaurantes y categorias atravez de una api",
+      },
+      {
+        image: uiEcommerceRN2,
+        description: "Pagar productos seleccionados por el usuario",
+      },
+      {
+        image: uiEcommerceRN3,
+        description: "Getión de productos seleccionados por parte del usuario",
       },
     ],
   },

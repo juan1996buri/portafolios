@@ -19,12 +19,7 @@ const Contac = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (
-      user.name.trim() &&
-      user.email.trim() &&
-      user.message.trim() &&
-      user.phone.trim()
-    ) {
+    if (user.name.trim() && user.email.trim() && user.message.trim()) {
       emailjs
         .sendForm(
           "service_m0nuv0j",
@@ -45,13 +40,6 @@ const Contac = () => {
     } else {
       setStatusMessage("Se requiere llenar todos los campos");
       setStateColor("bg-yellow-500");
-    }
-  };
-
-  const changePhone = (e) => {
-    const value = e.target.value;
-    if (e.target.validity.valid) {
-      setUser({ ...user, phone: value });
     }
   };
 
@@ -76,7 +64,8 @@ const Contac = () => {
             <h2
               className={` p-2 font-sansSerif font-semibold ${
                 stateColor ? stateColor : "invisible"
-              } bg-red-500 `}>
+              } bg-red-500 `}
+            >
               {statusMessage}
             </h2>
 
@@ -94,7 +83,8 @@ const Contac = () => {
                 <h3
                   className={`text-red-400 text-sm ${
                     user.name ? "invisible" : ""
-                  }`}>
+                  }`}
+                >
                   * Campo obligatorio
                 </h3>
               </div>
@@ -111,26 +101,13 @@ const Contac = () => {
                 <h3
                   className={`text-red-400 text-sm ${
                     user.email ? "invisible" : ""
-                  }`}>
+                  }`}
+                >
                   * Campo obligatorio
                 </h3>
               </div>
             </div>
-            <h2>Teléfono/Celular </h2>
-            <input
-              name="user_phone"
-              value={user.phone}
-              onChange={(e) => changePhone(e)}
-              placeholder="Tu Teléfono"
-              className="outline-none p-1 shadow-sm dark:bg-slate-300 dark:text-black"
-              pattern="^-?[0-9 ]\d*\.?\d*$"
-            />
-            <h3
-              className={`text-red-400 text-sm ${
-                user.phone ? "invisible" : ""
-              }`}>
-              * Campo obligatorio
-            </h3>
+
             <h2>Mensaje</h2>
             <textarea
               name="message"
@@ -141,13 +118,15 @@ const Contac = () => {
             <h3
               className={`text-red-400 text-sm ${
                 user.message ? "invisible" : ""
-              }`}>
+              }`}
+            >
               * Campo obligatorio
             </h3>
             <button
               type="submit"
               value={"message"}
-              className={` py-2  mt-2 mb-6 text-white ${currentColor?.bg}`}>
+              className={` py-2  mt-2 mb-6 text-white ${currentColor?.bg}`}
+            >
               Enviar
             </button>
           </form>
