@@ -11,7 +11,7 @@ const ProyectItem = ({ proyect }) => {
   const { ref, visible } = useVisibility();
 
   const animation = useAnimation();
-
+  /*
   useEffect(() => {
     if (visible) {
       animation.start({
@@ -26,10 +26,10 @@ const ProyectItem = ({ proyect }) => {
         opacity: 0,
       });
     }
-  }, [visible, animation]);
+  }, [visible, animation]);*/
   return (
     <div ref={ref}>
-      <motion.div className="w-full shadow-md" animate={animation}>
+      <div className="w-full shadow-md">
         <div className="w-full overflow-hidden cursor-pointer flex">
           <img
             src={proyect?.image}
@@ -51,18 +51,21 @@ const ProyectItem = ({ proyect }) => {
           {proyect?.tools.map((item, index) => (
             <div
               className="font-sansSerif font-semibold dark:font-normal dark:text-white "
-              key={index}>
+              key={index}
+            >
               <div>{item},</div>
             </div>
           ))}
         </div>
         <div
-          className={`w-full flex justify-end gap-2 p-2 ${currentColor?.text}`}>
+          className={`w-full flex justify-end gap-2 p-2 ${currentColor?.text}`}
+        >
           <a
             className={proyect.url ? "" : "hidden"}
             href={proyect.url}
             target={"_blank"}
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             <Visibility />
           </a>
           <a href={proyect.git} target={"_blank"} rel="noreferrer">
@@ -71,7 +74,7 @@ const ProyectItem = ({ proyect }) => {
         </div>
 
         <BasicModal open={open} setOpen={setOpen} proyect={proyect} />
-      </motion.div>
+      </div>
     </div>
   );
 };
