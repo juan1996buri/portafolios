@@ -56,6 +56,12 @@ import uiEcommerceRN1 from "../images/uiEcommerceRN1.jpg";
 import uiEcommerceRN2 from "../images/uiEcommerceRN2.jpg";
 import uiEcommerceRN3 from "../images/uiEcommerceRN3.jpg";
 
+import uiDelivery from "../images/ui_delivery.png";
+import uiTravel from "../images/travel.png";
+
+import uiDart from "../images/dart.png";
+import uiFlutter from "../images/flutter.jpg";
+
 export const data = [
   {
     icon: <HomeOutlined />,
@@ -97,6 +103,14 @@ export const networks = [
 ];
 
 export const technologies = [
+  {
+    icon: uiDart,
+    name: "Dart",
+  },
+  {
+    icon: uiFlutter,
+    name: "Flutter",
+  },
   {
     icon: html5,
     name: "HTML5",
@@ -166,6 +180,39 @@ export const technologies = [
 
 export const proyects = [
   {
+    name: "App de Delivery con Animaciones",
+
+    description:
+      "Este proyecto se enfoca en resolver un desafío relacionado con la implementación de animaciones en una aplicación de entrega de pedidos.",
+    image: uiDelivery,
+    git: "https://github.com/juan1996buri/challenge-delivery",
+    url: "",
+    tools: ["Flutter", "Dart"],
+    information: [
+      {
+        video: "https://www.youtube.com/shorts/8fsoxzBlBsg",
+        description:
+          "La usabilidad siempre ha sido una parte fundamental en el desarrollo de aplicaciones. En este proyecto, se logró alcanzar una interfaz altamente intuitiva y atractiva mediante el uso de animaciones y transiciones fluidas. Estas animaciones agregan un toque visualmente agradable a la experiencia del usuario, mejorando la interacción con la aplicación de entrega de pedidos.",
+      },
+    ],
+  },
+  {
+    name: "App de Viajes",
+    description:
+      "Este proyecto se centra en crear un diseño simple e intuitivo para el usuario, con el objetivo de mejorar mis habilidades en el desarrollo de aplicaciones móviles.",
+    image: uiTravel,
+    git: "https://github.com/juan1996buri/ui-travel.git",
+    url: "",
+    tools: ["Flutter", "Dart"],
+    information: [
+      {
+        video: "https://youtube.com/shorts/5R4qU2HIcB0?feature=share",
+        description:
+          "Este proyecto consiste en implementar un diseño previamente obtenido, con el fin de fortalecer mis habilidades en el desarrollo de aplicaciones. La interfaz se ha creado con especial atención en la simplicidad y la intuición, lo que proporciona una experiencia de usuario fluida y agradable. Al trabajar en este proyecto, he profundizado en el uso de Flutter y Dart para la creación de interfaces de usuario atractivas y funcionales.",
+      },
+    ],
+  },
+  {
     name: "Sitio Web de Peliculas",
     description: "Sitio de peliculas usando TMDB como base de datos ",
     image: proyect1_1,
@@ -196,6 +243,7 @@ export const proyects = [
       },
     ],
   },
+
   {
     name: "Sistema de voto electronico multi-institucional",
     description:
