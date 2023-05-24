@@ -7,7 +7,7 @@ const Proyects = () => {
   return (
     <section id="PROYECTOS" className="pb-8">
       <SectionTitle title={"PROYECTOS"} />
-      <div className="grid gap-10 lg:w-[80%] w-[90%] mx-auto">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-10 lg:w-[80%] w-[90%] mx-auto">
         {proyects.map((item, index) => (
           <ProyectItem key={index} proyect={item} />
         ))}
